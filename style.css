@@ -49,6 +49,7 @@ a:active{ text-decoration: none;}
 
 
 .hero{
+    width:100vh;
     display:flex;
     margin-top:5em;
     justify-content: space-between;
@@ -57,6 +58,7 @@ a:active{ text-decoration: none;}
 }
 
 .hero-content{
+    width:100vh;
     display: flex;
     flex-flow: column wrap;
     align-items: flex-start;
@@ -95,10 +97,13 @@ a:active{ text-decoration: none;}
 
 .hero-image{
     margin-right: 5em;
-    width:fit-content;
     flex-shrink:1;
 }
 
+.hero-image{
+    max-width: fit-content;
+    max-height: fit-content;
+}
 .hero-image img{
     
     max-height:20em;
