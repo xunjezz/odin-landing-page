@@ -5,7 +5,6 @@ html, body{
 body{
     font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     overflow-x:hidden;
-    min-height: 100%;
     width: 100vw;
     margin:0;
     padding: 0;
@@ -56,7 +55,7 @@ a:active{ text-decoration: none;}
 
 
 .hero{
-    width:100vh;
+    /* width:100vh; */
     display:flex;
     margin-top:5em;
     justify-content: space-between;
@@ -65,7 +64,7 @@ a:active{ text-decoration: none;}
 }
 
 .hero-content{
-    width:100vh;
+    /* width:100vh; */
     display: flex;
     flex-flow: column wrap;
     align-items: flex-start;
@@ -73,13 +72,14 @@ a:active{ text-decoration: none;}
 }
 
 .about{
-    max-width: fit-content;
+    max-width: 25em;
     word-wrap: normal;
 }
 
 .hero h1{
     font-size: 48px;
     font-weight: 1000;
+    max-width: 25em;
     color:#F9FAF8;
     display:flex;
 
@@ -88,7 +88,7 @@ a:active{ text-decoration: none;}
 .hero p{
     font-size:18px;
     color: #E5E7EB;
-    width: 500px;
+    width: 25em;
     display:flex;
     justify-content: space-between;
 }
@@ -108,7 +108,8 @@ a:active{ text-decoration: none;}
 }
 
 .hero-image{
-    margin-right: 5em;
+    margin-right: 10em;
+    margin-left: 2em;
     flex-shrink:0;
     max-width: 20%;
     max-height: 20%;
@@ -122,7 +123,7 @@ a:active{ text-decoration: none;}
     max-height:20em;
     min-width: 25em;
     border-radius: 4px;
-    margin: 0 0em 0 2em;
+    margin: 0 0em 0 0em;
     
 }
 
@@ -147,7 +148,7 @@ a:active{ text-decoration: none;}
 
 .info-image-bar{
     display:flex;
-    min-width: fit-content;
+    max-width: fit-content;
     gap:5em;
 
 }
@@ -221,7 +222,7 @@ a:active{ text-decoration: none;}
     margin: 5em 10% 5em 10%;
     padding: 2em 7em 2em 7em;
     gap:10em;
-    width: fit-content;
+    max-width: fit-content;
 
 }
 
