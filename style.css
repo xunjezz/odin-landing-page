@@ -73,6 +73,8 @@ a:active{ text-decoration: none;}
     font-size:18px;
     color: #E5E7EB;
     width: 500px;
+    display:flex;
+    justify-content: space-between;
 }
 
 
@@ -85,17 +87,27 @@ a:active{ text-decoration: none;}
     text-align: center;
     justify-self:flex-start;
     
+
     
+}
+
+.hero-image{
+    padding-right: 5em;
+    width:fit-content
 }
 
 .hero-image img{
     
     max-height:20em;
     min-width: fit-content;
-    max-width: fit-content;
     border-radius: 4px;
-    margin: 0 10em 0 2em;
+    margin: 0 0em 0 2em;
+    
 }
+
+
+
+
 
 .info{
    color:#1F2937;
