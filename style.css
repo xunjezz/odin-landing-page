@@ -65,6 +65,10 @@ a:active{ text-decoration: none;}
     
 }
 
+.about{
+    max-width: fit-content;
+}
+
 .hero h1{
     font-size: 48px;
     font-weight: 1000;
@@ -98,13 +102,12 @@ a:active{ text-decoration: none;}
 .hero-image{
     margin-right: 5em;
     flex-shrink:1;
-}
-
-.hero-image{
     max-width: fit-content;
     max-height: fit-content;
 }
-.hero-image img{
+
+
+.trouble{
     
     max-height:20em;
     min-width: fit-content;
