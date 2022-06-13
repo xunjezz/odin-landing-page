@@ -84,7 +84,7 @@ a:active{ text-decoration: none;}
 }
 
 .about{
-    max-width:30em;
+    max-width:40em;
     word-wrap: normal;
 }
 
@@ -100,7 +100,7 @@ a:active{ text-decoration: none;}
 .hero p{
     font-size:18px;
     color: #E5E7EB;
-    width: 20em;
+    max-width:40em;
     display:flex;
     justify-content: space-between;
 }
