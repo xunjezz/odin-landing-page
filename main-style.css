@@ -39,6 +39,7 @@ body{
     display: flex;
     justify-content: flex-end;
     width:fit-content;
+    
 }
 
 .header-left-side{
@@ -119,11 +120,11 @@ a:active{ text-decoration: none;}
 }
 
 .hero-image{
+    display:flex;
     margin-right: 5em;
     margin-left: 4em;
-    max-height: auto;
     align-self: center;
-    flex-basis:20em;
+    
     
 }
 
@@ -133,7 +134,7 @@ a:active{ text-decoration: none;}
     height:15em;
     width: 20em;
     border-radius: 4px;
-    /* margin: 0 0em 0 0em; */
+   
     
 }
 
@@ -196,7 +197,8 @@ a:active{ text-decoration: none;}
 .quote-content{
     display:flex;
     flex-direction: column;
-    align-items: flex-end;
+    align-items: center;
+    
     
 
 }
@@ -205,9 +207,9 @@ a:active{ text-decoration: none;}
     font-size: 36px;
     font-style: italic;
     color:#1F2937;
-    max-width: 20em;
+    width: 16em;
     margin-bottom: 0;
-    opacity: .8;
+    opacity: .6;
     padding: 0 1em 0 1em;
     
     
@@ -236,10 +238,10 @@ a:active{ text-decoration: none;}
     display:flex;
     align-items:center;
     justify-content: space-between;
-    margin: 5em 5em 5em 5em;
+    margin: 5em 11em 5em 11em;
     padding: 2em 1em 2em 1em;
     gap:5em;
-    width: 50em;
+    width: 75%;
     height: 5em;
 
 }
@@ -254,14 +256,16 @@ a:active{ text-decoration: none;}
 }
 
 .call-box-text-bottom{
-    margin-top:1em;
+    margin-top:0em;
     padding-left: 1em;
     width: 20em;
 }
 
 .call-box-button{
-    align-self: center;
+    align-self:baseline;
     margin-top: 1em;
+
+
     
     
     

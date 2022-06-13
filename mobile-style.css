@@ -31,14 +31,15 @@ body{
     max-width: 100vw;
     display: flex;
     justify-content: space-between;
+    ;
     
 }
 
 
 .header-right-links .links{
     display: flex;
-    justify-content: flex-end;
-    width:fit-content;
+    justify-content: flex-start;
+    
 }
 
 .header-left-side{
@@ -68,10 +69,11 @@ a:active{ text-decoration: none;}
 .hero{
     /* max-width:100vw; */
     display:flex;
-    margin-top:5em;
+    margin-top:2em;
     justify-content: space-between;
+    align-items:center;
     /* align-items: stretch; */
-    padding-bottom: 10em;
+    padding-bottom: 2em;
 }
 
 .hero-content{
@@ -88,7 +90,7 @@ a:active{ text-decoration: none;}
 }
 
 .hero h1{
-    font-size: 48px;
+    font-size: 2em;
     font-weight: 1000;
     max-width: 50vw;
     color:#F9FAF8;
@@ -119,22 +121,25 @@ a:active{ text-decoration: none;}
 }
 
 .hero-image{
-    margin-right: 10vw;
+    /* display:flex;
+    margin-right: 1em;
     margin-left: 2em;
-    flex-shrink:0;
-    max-width: 50vw;
-    max-height: 50vw;
+    max-width: 30em;
+    max-height: auto;
     align-self:center;
+    align-items:flex-start;
+    flex-shrink:1; */
     
 }
 
 
 .trouble{
     
-    max-height:50vw;
-    width: 50vw;
+    height:12em;
+    max-width: 6em;
     border-radius: 4px;
-    margin: 0 0em 0 0em;
+    margin: 0 0em 0 2em;
+    /* flex-shrink:1; */
     
 }
 
@@ -151,7 +156,7 @@ a:active{ text-decoration: none;}
 }
 
 .info-title{
-    font-size: 36px;
+    font-size: 2em;
     font-weight: 1000;
     color:#1F2937;
     text-align: center;
@@ -160,10 +165,10 @@ a:active{ text-decoration: none;}
 .info-image-bar{
     display:flex;
     flex-wrap: wrap;
-    /* align-content: flex-end; */
     width: 100vw;
     gap:2em;
-    margin-left: 5em;
+    margin-left: 8.5em;
+    
 
 }
 
@@ -203,10 +208,11 @@ a:active{ text-decoration: none;}
     font-weight: 100;
     font-size: 36px;
     font-style: italic;
+    visibility: visible;
     color:#1F2937;
     max-width: 20em;
     margin-bottom: 0;
-    opacity: .8;
+    opacity: .6;
     padding: 0 1em 0 1em;
     
     
